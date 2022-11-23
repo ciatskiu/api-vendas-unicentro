@@ -15,3 +15,13 @@ node build/server.js
 
  npm i express cors express-async-errors
  npm i -D @types/express @types/cors
+
+ npm i typeorm reflect-metadata pg
+
+ docker ps 
+ docker rm <CONTAINER ID>
+ docker run --name postgres -e POSTGRES_PASSWORD=docker 
+ –p 5433:5432 -d postgres
+
+ npm i tsconfig-paths
+ npm run typeorm
