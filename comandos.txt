@@ -24,4 +24,12 @@ node build/server.js
  –p 5433:5432 -d postgres
 
  npm i tsconfig-paths
- npm run typeorm
+ npm run typeorm 
+
+ npm run typeorm migration:create -- -n CreateProducts
+
+  npm run typeorm migration:run
+
+  // driverError: error: function uuid_generate_v4() does not exist
+
+ 
