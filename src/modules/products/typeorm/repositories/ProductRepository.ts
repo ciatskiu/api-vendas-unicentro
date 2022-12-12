@@ -1,6 +1,7 @@
-import { Repository } from "typeorm";
+import { EntityRepository, Repository } from "typeorm";
 import Product from "../entities/Product";
 
+@EntityRepository(Product)
 export default class ProductRespository extends 
     Repository<Product>{
         public async findByName(name: string) 
