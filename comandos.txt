@@ -33,3 +33,6 @@ node build/server.js
   // driverError: error: function uuid_generate_v4() does not exist
 
  npm run typeorm migration:revert
+
+ npm i celebrate
+ npm i -D @types/joi
