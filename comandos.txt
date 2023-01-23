@@ -36,3 +36,8 @@ node build/server.js
 
  npm i celebrate
  npm i -D @types/joi
+
+ Parte 2 - Pós Recesso de fim de ano
+
+ npm run typeorm migration:create -- -n CreateUsers
+ npm run typeorm migration:run 
