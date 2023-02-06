@@ -52,6 +52,9 @@ npm i multer
 npm i -D @types/multer
 
 npm run typeorm migrations:create -- -n CreateUserTokens
+npm run typeorm migration:run 
+
+npm i date-fns
 
 
 
