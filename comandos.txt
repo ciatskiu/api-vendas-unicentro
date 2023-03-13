@@ -72,3 +72,5 @@ npm run typeorm migration:create -- -n CreateOrdersProducts
 npm run typeorm migration:run 
 npm run typeorm migration:create -- -n AddOrderIdToOrdersProduct
 npm run typeorm migration:run 
+npm run typeorm migration:create -- -n AddProductIdToOrdersProduct
+npm run typeorm migration:run 
